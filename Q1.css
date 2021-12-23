@@ -1,18 +1,23 @@
-.header-footer{
-    background-color:#80e06d;
+.header-footer
+{
+    background-color:#6248d4;
     list-style:none;
     text-align: left;
     height: 60px;
     text-decoration: none;
 }
-.menu-item{
+
+.menu-item
+{
     display: inline-block;
     margin-right: 20px;
     text-decoration: none;
     color: inherit;
     list-style:none;
 }
-.page-footer {
-  background: #80e06d;
+
+.page-footer 
+{
+  background: #6248d4;
   margin-top: 50px;
 }

@@ -65,7 +65,7 @@ import sqlite3
 
 class TestTable(unittest.TestCase):
     def setUp(self):
-        self.rus = "qwertyuiopasdfghjklzxcvbnm_-@$!?1234567890 "
+        self.rus = "qwertyuiopasdfghjklzxcvbnm_-@$!?1234567890** "
         self.login = "qwertyuiopasdfghjklzxcvbnm_-@$!?1234567890 "
         self.name = 'n5.db'
         self.db = sqlite3.connect(self.name)
