@@ -1,6 +1,6 @@
 import sqlite3
 
-name = 'n18.db'
+name = 'n5.db'
 db = sqlite3.connect(name)
 
 cur = db.cursor()
