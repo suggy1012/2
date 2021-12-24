@@ -114,8 +114,6 @@ class TestTable(unittest.TestCase):
             for letter in name:
                 self.assertIn(letter.lower(), self.login)
 
-    def tearDown(self):
-        pass
 
 if __name__ == '__main__':
     unittest.main()
